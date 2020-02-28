@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby
 
 require "bundler/setup"
-require "cohortCLI"
+require "CLIproject"
 
+#here we are accessing the class and making a new instance
+#of the class CLI with method start 
+CLIproject::CLI.new.start

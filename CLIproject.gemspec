@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Simple Ruby CLI app" #set summary here 
   spec.description   = "Use API data to get a list of SOMETHING" #description here
-  spec.homepage      = "http://github/REPO URL HERE"
+  spec.homepage      = "https://github.com/jenleebeaver/flatiron-CLIproject"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -20,8 +20,9 @@ Gem::Specification.new do |spec|
     spec.metadata["allowed_push_host"] = "http://mygemserver.com" #gemserver
 
     spec.metadata["homepage_uri"] = spec.homepage
-    spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-    spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+    #underneath is our public repo
+    spec.metadata["source_code_uri"] = "https://github.com/jenleebeaver/flatiron-CLIproject"
+    spec.metadata["changelog_uri"] = "https://github.com/jenleebeaver/flatiron-CLIproject"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
