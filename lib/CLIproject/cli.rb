@@ -4,7 +4,21 @@ class CLIproject::CLI
         puts "Hello there!"
         puts "Getting data from API... please wait"
         puts "Creating new objs"
-        binding.pry
+    end
+
+    def display_info
+        puts "please make selection:"
+        input = gets.strip.downcase
+
+        if input == "actors"
+            puts "=======ACTORS LIST======="
+            puts "List of Actors/Objs"
+        elseif input == "movies"
+        puts "=======MOVIES LIST======="
+            puts "List of Movies/Objs"
+        else
+            puts "goodbye"
+        end
     end
 
     #start should greet user, maybe give desc
