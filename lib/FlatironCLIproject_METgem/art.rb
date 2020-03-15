@@ -1,13 +1,6 @@
-class CLIproject::Movie
-    attr_accessor :title, :year, :release_year
+class CLIproject::Art
+    attr_accessor :title, :primaryImage, :accessionYear, :department, :culture, :dimensions
     @@all = []
-
-    # here we see a nested hash 
-    ## set @@all = {
-        #Frank: {
-            #movies: []
-        #}
-    #}
 
     def initialize(hash)
         #mass assignment. .send is running what is inside the block. ie. key = value. Here we are able to return a single object.

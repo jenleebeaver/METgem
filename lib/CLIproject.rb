@@ -4,7 +4,7 @@
 require "CLIproject/version"
 require "CLIproject/cli"
 require "CLIproject/api"
-require "CLIproject/movie"
+require "CLIproject/art"
 
 #dependencies 
 require "pry"
