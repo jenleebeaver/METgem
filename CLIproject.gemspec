@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Simple Ruby CLI app" #set summary here 
   spec.description   = "Use API data to get a list of SOMETHING" #description here
-  spec.homepage      = "https://github.com/jenleebeaver/flatiron-CLIproject"
+  spec.homepage      = "https://github.com/jenleebeaver/METgem"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
