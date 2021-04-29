@@ -30,7 +30,7 @@ After checking out the repo, run `bin/setup` to install dependencies. You can al
 To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Walk Through
-[Click here to watch a walkthrough of the gem!](https://www.youtube.com/watch?v=2U9ojF0olAc&t=3s)
+Click [here](https://www.youtube.com/watch?v=2U9ojF0olAc&t=3s) to watch a walkthrough of the gem!
 
 ## Contributing
 
