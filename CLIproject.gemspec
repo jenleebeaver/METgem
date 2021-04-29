@@ -21,8 +21,8 @@ Gem::Specification.new do |spec|
 
     spec.metadata["homepage_uri"] = spec.homepage
     #underneath is our public repo
-    spec.metadata["source_code_uri"] = "https://github.com/jenleebeaver/flatiron-CLIproject"
-    spec.metadata["changelog_uri"] = "https://github.com/jenleebeaver/flatiron-CLIproject"
+    spec.metadata["source_code_uri"] = "https://github.com/jenleebeaver/METgem"
+    spec.metadata["changelog_uri"] = "https://github.com/jenleebeaver/METgem"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
